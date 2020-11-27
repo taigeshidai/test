@@ -1,0 +1,44 @@
+body,div,ul,li,ol,dl,dd,dt,p,h1,h2,h3,h4,h5,form,input,textarea,select,span,a,img{
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+    
+body {
+    background-size: cover;
+    font-family: 'PingFangTC-light', 'Lantinghei SC', 'PingFang SC', 'Microsoft Yahei', 'Hiragino Sans GB', 'Microsoft Sans Serif', 'WenQuanYi Micro Hei', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+
+ol, ul , li{
+    list-style: none;
+}
+
+/* 表单元素字体从父级继承 */
+input, button, textarea {
+    font: inherit;
+}
+
+img {
+    border: none;
+    background: none; 
+    vertical-align: middle;
+}
+
+h1, h2, h3, h4, h5 {
+    font-weight: normal;
+}
+
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+}
