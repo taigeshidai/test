@@ -1,0 +1,236 @@
+body>.base_head{
+    height: 147px;
+    margin-bottom:4px;
+}
+body>.base_head a{
+    display: inline-block;
+    margin:20px 0 10px;
+}
+body>.base_head .text{
+    margin:20px 0 16px;
+    color: red;
+    font-size: 16px;
+}
+body>.base_head .menu{
+    display: none;
+    
+}
+body>.base_head .text>p{
+    margin-bottom:4px;
+}
+body>.base_head hr{
+    margin: 0;
+}
+body >.base_head .base_nav_items{
+    float: left;
+}
+body >.base_head .base_nav_items >a{
+    text-decoration: none;
+    color: #6a6a6a;
+    display: inline-block;
+    padding:0 10px;
+    position: relative;
+}
+body >.base_head .base_nav_items >a::after{
+    content:'';
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background:url('http://www.togest.com/phpcms/templates/default/image/navbg.png')no-repeat;
+    background-size: cover;
+    display: none;
+}
+body >.base_head .base_nav_items >a:hover::after{
+    display: block;
+}
+body >.base_head .base_nav_items:hover > .opa{
+    /* display: block; */
+    height: 60px;
+}
+ body >.base_head .base_nav_items:hover > p{
+    height: 66px;
+}
+body >.base_head .base_nav_items > p{
+    position: absolute;
+    width: 100%;
+    top: 146px;
+    left: 0;
+    height: 4px;
+    transition:.4s;
+    background-color: #b82a2d;
+    z-index: 1;
+}
+body >.base_head .base_nav_items .opa{
+    position: absolute;
+    top: 146px;
+    height: 2px;
+    overflow: hidden;
+    transition:.4s;
+    background-color: #b82a2d;
+    z-index: 2;
+}
+body >.base_head .base_nav_items .opa a{
+    display: inline-block;
+    color:#fff;
+    margin:10px 0;
+    text-decoration: none;
+}
+body >.base_head .base_nav_items .opa ul li{
+    float:left;
+    padding: 0 20px;
+    text-align: center;
+}
+body >.base_head .base_nav_items .opa ul li p{
+    
+    margin:0;
+    padding: 0;
+}
+body >.base_head .base_nav_items .opa ul li p span{
+    font-size: 20px;
+}
+body >.base_head .base_nav_right{
+    float:right;
+    margin-top: 15px;
+}
+
+
+
+body>footer{
+    background-color: #ccc;
+}
+
+
+/* 尾部 */
+body>footer.base_foot{
+    margin-top:60px;
+}
+body>footer.base_foot > .top{
+    line-height: 48px;
+    background-color: #b81d19;
+}
+body>footer.base_foot > .top a {
+    color: #fff;
+    text-decoration: none;
+    padding-right:10px;
+}
+body>footer.base_foot > .top .goup a{
+    position: absolute;
+    right: 0px;
+    padding:0;
+    top: -50px;
+    width: 40px;
+    height: 40px;
+    
+    color: #fff;
+    background-color: #282828;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+}
+body>footer.base_foot > .top .goup a span{
+    font-size: 20px;
+}
+body>footer.base_foot > .bottom{
+    background-color: #282828;
+}
+
+body>footer.base_foot > .bottom >div{
+    padding-top:40px;
+}
+body>footer.base_foot > .bottom >div .test {
+    margin-top: 20px;
+}
+body>footer.base_foot > .bottom >div .test a{
+    color:#7d7d7d;
+    text-decoration: none;
+    font-size: 14px;
+}
+body>footer.base_foot > .bottom >div .test a:hover{
+    color: #b81d19;
+}
+
+body>footer.base_foot > .bottom >div .subscription{
+    color: #7d7d7d;
+    margin-top:20px;
+}
+body>footer.base_foot > .bottom >div .subscription input {
+    padding-left: 10px;
+    line-height: 30px;
+    color: #000;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    outline: none;
+}
+body>footer.base_foot > .bottom >div .subscription button{
+    position: absolute;
+    right: -2px;
+    top: 0;
+    padding: 0 10px;
+    border:0px;
+    line-height: 30px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    background-color:#b81d19;
+    outline: none;
+    color: #fff;
+}
+body>footer.base_foot > .bottom  .padd{
+    padding-top:60px;
+}
+body>footer.base_foot > .bottom  .padd span{
+    font-size: 24px;
+    position: relative;
+    top:6px;
+}
+body>footer.base_foot > .bottom  .padd p+p{
+    margin-top: 30px;
+}
+body>footer.base_foot > .bottom .social{
+    text-align: right;
+}
+body>footer.base_foot > .bottom .social > a{
+    color: #fff;
+    text-decoration: none;
+    background-color: #b81d19;
+    display: inline-block;
+    padding: 0 5px;
+}
+body>footer.base_foot > .bottom .social > a> span{
+    font-size: 25px;
+}
+body>footer.base_foot > .bottom  .qr_code{
+    text-align: right;
+    margin-top: 20px;
+}
+body>footer.base_foot > .bottom > .copyright{
+    padding: 0;
+    color: #ccc;
+    padding-bottom:20px;
+}
+body>footer.base_foot > .bottom > .copyright > .left{
+    float:left;
+}
+body>footer.base_foot > .bottom > .copyright > .right{
+    float:right;
+}
+body>footer.base_foot > .bottom > .copyright > .right span{
+    color:#b81d19; 
+}
+@media (max-width: 990px){
+    .base_nav_right {
+        display: none;
+    }
+}
+@media (max-width: 707px){
+    body>.base_head .menu{
+        display: block;
+    }
+    body>.base_head .text{
+        display: none;
+    }
+    body>header>nav{
+        display:none;
+    }
+}
