@@ -13,49 +13,63 @@
     <link rel="stylesheet" href="../css/base1.css">
     <style>
         .content {
-            position: relative;
             background: url(../imgs/dsj_bg.png) repeat;
         }
-
-        h3 {
+        .content>div {
+            width: 100%;
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+        div.info-block {
+            margin: 0 auto;
+            width: 80%;
+            padding: 10px;
+            font-size: 18px;
+            line-height: 30px;
+            border-radius: 20px;
             color: #fff;
             background-color: #30344F;
+            box-shadow: 5px 5px 5px #888;
         }
-
-        .img-box {
-            margin: 0 auto;
-            width: 1100px;
+        .content .year {
+            position: relative;
         }
-
         .img-box img {
             width: 100%;
         }
-
-        @media (max-width: 1100px) {
-            .img-box {
-                width: 100%;
-            }
-
-            .img-box img {
-                width: 100%;
-            }
+        .r2l-box>div {
+            float: left;
+            width: 50%;
+            text-align: right;
         }
-
-        .r2l-box,
         .l2r-box {
-            /* position: absolute;
-            left: 50%; */
-            margin-left: 50%;
+            transform: translateX(2px);
+        }
+        .l2r-box>div {
+            float: right;
+            width: 50%;
         }
 
         .r2l {
-
-            width: 418px;
-
+            border-left: 2px solid #B81D19;
         }
 
         .l2r {
-            width: 418px;
+            border-right: 2px solid #B81D19;
+        }
+        .radius {
+            position: absolute;
+            top: 30px;
+            width: 16px;
+            height: 16px;
+            border-radius: 50%;
+            background-color: #B81D19;
+        }
+        .r2l-box .radius {
+            right: -10px;
+        }
+        .l2r-box .radius {
+            left: -10px;
         }
     </style>
 
@@ -195,42 +209,130 @@
     <main style="height: 2000px;">
         <div class="container-fluid">
             <div class="row">
-                <div class="content col-md-12">
+                <div class="content col-sm-12">
 
                     <div class="img-box">
                         <img src="../imgs/childBanner2.jpg">
                     </div>
 
-
-
-
                     <div class="r2l-box">
                         <div class="t2b" data-scroll-reveal="enter top over 1s and move 200px after 0.3s">
-                            <div>2018年<div class="radius"></div>
+                            <div class="year">2018年<div class="radius"></div>
                             </div>
                         </div>
                         <div class="r2l">
-                            <h3 data-scroll-reveal="enter right over 1s and move 100px after 1s">
-                                <p style="line-height: 36px;font-size:18px">
-                                    与华东交通大学联合申报的“轨道交通基础设施服役安全保障国家地方联合工程研究中心”获国家发展和改革委员会批准正式成立。</p>
-                                <p style="line-height: 36px;font-size:18px">与华东交通大学成为战略合作伙伴关系。</p>
-                                <p style="line-height: 36px;font-size:18px">江西分公司与子公司远格科技迁入新办公大楼。</p>
-                            </h3>
-
-
+                            <div class="info-block" data-scroll-reveal="enter right over 1s and move 100px after 1s">
+                                <p>与华东交通大学联合申报的“轨道交通基础设施服役安全保障国家地方联合工程研究中心”获国家发展和改革委员会批准正式成立。</p>
+                                <p>与华东交通大学成为战略合作伙伴关系。</p>
+                                <p>江西分公司与子公司远格科技迁入新办公大楼。</p>
+                            </div>
                         </div>
                     </div>
                     <div class="l2r-box">
                         <div class="t2b" data-scroll-reveal="enter top over 1s and move 200px after 0.3s">
-                            <div>2017年<div class="radius"></div>
+                            <div class="year">2017年<div class="radius"></div>
                             </div>
                         </div>
                         <div class="l2r">
-                            <h3 data-scroll-reveal="enter left over 1s and move 100px after 1s">
+                            <div class="info-block" data-scroll-reveal="enter left over 1s and move 100px after 1s">
                                 6C系统综合数据处理中心&供电生产指挥系统”科研成果鉴定会圆满落幕。
-                            </h3>
-
-
+                            </div>
+                        </div>
+                    </div>
+                    <div class="r2l-box">
+                        <div class="t2b" data-scroll-reveal="enter top over 1s and move 200px after 0.3s">
+                            <div class="year">2018年<div class="radius"></div>
+                            </div>
+                        </div>
+                        <div class="r2l">
+                            <div class="info-block" data-scroll-reveal="enter right over 1s and move 100px after 1s">
+                                <p>与华东交通大学联合申报的“轨道交通基础设施服役安全保障国家地方联合工程研究中心”获国家发展和改革委员会批准正式成立。</p>
+                                <p>与华东交通大学成为战略合作伙伴关系。</p>
+                                <p>江西分公司与子公司远格科技迁入新办公大楼。</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="l2r-box">
+                        <div class="t2b" data-scroll-reveal="enter top over 1s and move 200px after 0.3s">
+                            <div class="year">2017年<div class="radius"></div>
+                            </div>
+                        </div>
+                        <div class="l2r">
+                            <div class="info-block" data-scroll-reveal="enter left over 1s and move 100px after 1s">
+                                6C系统综合数据处理中心&供电生产指挥系统”科研成果鉴定会圆满落幕。
+                            </div>
+                        </div>
+                    </div>
+                    <div class="r2l-box">
+                        <div class="t2b" data-scroll-reveal="enter top over 1s and move 200px after 0.3s">
+                            <div class="year">2018年<div class="radius"></div>
+                            </div>
+                        </div>
+                        <div class="r2l">
+                            <div class="info-block" data-scroll-reveal="enter right over 1s and move 100px after 1s">
+                                <p>与华东交通大学联合申报的“轨道交通基础设施服役安全保障国家地方联合工程研究中心”获国家发展和改革委员会批准正式成立。</p>
+                                <p>与华东交通大学成为战略合作伙伴关系。</p>
+                                <p>江西分公司与子公司远格科技迁入新办公大楼。</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="l2r-box">
+                        <div class="t2b" data-scroll-reveal="enter top over 1s and move 200px after 0.3s">
+                            <div class="year">2017年<div class="radius"></div>
+                            </div>
+                        </div>
+                        <div class="l2r">
+                            <div class="info-block" data-scroll-reveal="enter left over 1s and move 100px after 1s">
+                                6C系统综合数据处理中心&供电生产指挥系统”科研成果鉴定会圆满落幕。
+                            </div>
+                        </div>
+                    </div>
+                    <div class="r2l-box">
+                        <div class="t2b" data-scroll-reveal="enter top over 1s and move 200px after 0.3s">
+                            <div class="year">2018年<div class="radius"></div>
+                            </div>
+                        </div>
+                        <div class="r2l">
+                            <div class="info-block" data-scroll-reveal="enter right over 1s and move 100px after 1s">
+                                <p>与华东交通大学联合申报的“轨道交通基础设施服役安全保障国家地方联合工程研究中心”获国家发展和改革委员会批准正式成立。</p>
+                                <p>与华东交通大学成为战略合作伙伴关系。</p>
+                                <p>江西分公司与子公司远格科技迁入新办公大楼。</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="l2r-box">
+                        <div class="t2b" data-scroll-reveal="enter top over 1s and move 200px after 0.3s">
+                            <div class="year">2017年<div class="radius"></div>
+                            </div>
+                        </div>
+                        <div class="l2r">
+                            <div class="info-block" data-scroll-reveal="enter left over 1s and move 100px after 1s">
+                                6C系统综合数据处理中心&供电生产指挥系统”科研成果鉴定会圆满落幕。
+                            </div>
+                        </div>
+                    </div>
+                    <div class="r2l-box">
+                        <div class="t2b" data-scroll-reveal="enter top over 1s and move 200px after 0.3s">
+                            <div class="year">2018年<div class="radius"></div>
+                            </div>
+                        </div>
+                        <div class="r2l">
+                            <div class="info-block" data-scroll-reveal="enter right over 1s and move 100px after 1s">
+                                <p>与华东交通大学联合申报的“轨道交通基础设施服役安全保障国家地方联合工程研究中心”获国家发展和改革委员会批准正式成立。</p>
+                                <p>与华东交通大学成为战略合作伙伴关系。</p>
+                                <p>江西分公司与子公司远格科技迁入新办公大楼。</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="l2r-box">
+                        <div class="t2b" data-scroll-reveal="enter top over 1s and move 200px after 0.3s">
+                            <div class="year">2017年<div class="radius"></div>
+                            </div>
+                        </div>
+                        <div class="l2r">
+                            <div class="info-block" data-scroll-reveal="enter left over 1s and move 100px after 1s">
+                                6C系统综合数据处理中心&供电生产指挥系统”科研成果鉴定会圆满落幕。
+                            </div>
                         </div>
                     </div>
                 </div>
