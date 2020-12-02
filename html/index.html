@@ -10,9 +10,12 @@
     <link rel="stylesheet" href="../lib/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css">
     <link rel="stylesheet" href="../lib/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.svg">
     <link rel="stylesheet" href="https://at.alicdn.com/t/font_2235284_mp8fniv83xj.css">
+    <link rel="stylesheet" href="../lib/swiper/swiper-bundle.min.css">
     <link rel="stylesheet" href="../css/base1.css">
+    <link rel="stylesheet" href="../css/Yao_index_main.css">
     <script src="../lib/jQuery/jquery-3.5.1.min.js"></script>
     <script src="../lib/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+    <script src="../lib/swiper/swiper-bundle.min.js"></script>
 </head>
 
 <body>
@@ -114,11 +117,23 @@
             </div>
         </nav>
     </header>
-    <main>
-        <div class="swiper_log">
-            <div class="next"><span class="glyphicon glyphicon-menu-right"></span></div>
-            <div class="prev"><span class="glyphicon glyphicon-menu-left"></span></div>
+    <main class="index_main">
+        <div class="banner">
+            <div class="swiper-container ">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide "><a style="background:url('../imgs/banner1/20170115115512781.jpg')" class="swiper_item" href="#">ssss</a></div>
+                    <div class="swiper-slide "><a style="background:url('../imgs/banner1/20170115115616266.jpg')" class="swiper_item" href="#">dddd</a></div>
+                    <div class="swiper-slide "><a style="background:url('../imgs/banner1/20170210103028358.jpg')" class="swiper_item" href="#">xxxx</a></div>
+                </div>
+                <!-- 如果需要分页器 -->
+                <div class="swiper-pagination"></div>
+                
+                <!-- 如果需要导航按钮 -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
         </div>
+        <script src="../js/Yao_index_swiper1.js"></script>
     </main>
     <footer class="base_foot">
         <!-- 尾部 -->

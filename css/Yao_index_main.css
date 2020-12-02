@@ -1,0 +1,11 @@
+body>.index_main>.banner > .swiper-container {
+    width: 100%;
+    height: 672px;
+    z-index: 1;
+}
+
+body>.index_main>.banner > .swiper-container >.swiper-wrapper >.swiper-slide > a.swiper_item{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
