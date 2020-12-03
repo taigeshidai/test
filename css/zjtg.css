@@ -23,3 +23,44 @@
 .col-sm-3,.col-sm-9 {
     padding: 0;
 }
+/* 公司简介 */
+.cx-content img {
+    padding: 42px 0;
+    box-sizing: content-box;
+}
+.dashed {
+    height: 0;
+    border: none;
+    border-bottom: 1px dashed #ccc;
+}
+
+@media (max-width: 1100px)  {
+    .img-box {
+        width: 100%;
+    }
+
+    .img-box img {
+        width: 100%;
+    }
+}
+
+/* 创新开放 */
+.cx-content img {
+    padding: 42px 0;
+    box-sizing: content-box;
+
+}
+
+
+
+/* 太格理念 */
+.cx-content img {
+    padding: 42px 0;
+    box-sizing: content-box;
+}
+
+/* 资质荣誉 */
+.cx-content img {
+    padding: 42px 0;
+    box-sizing: content-box;
+}
