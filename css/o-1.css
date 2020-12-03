@@ -1,6 +1,10 @@
+.mediae{
+    position: relative !important;
+    top:-10px !important;
+}
 .media>div{
     width: 100%;
-    max-width: 1100px;
+    max-width: 1100px;    
     margin: 0 auto;
     overflow: auto;
 
