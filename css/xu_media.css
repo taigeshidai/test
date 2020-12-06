@@ -6,10 +6,66 @@
 .media-left .active {
     background: #fff;
 }
-.list-right h4 {
-    font-weight: bold;
-    color: #551a8b;
+
+/* 分页 */
+.page-name{
+    margin-top: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
 }
+.page-name span.act{
+    border: 1px solid transparent;
+}
+.page-name span{
+    height: 33px;
+    padding: 5px 7px;
+    line-height: 20px;
+    border: 1px solid  #b81d19;
+    color: #b81d19;
+    font-size: 12px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+/* 详情页文字 */
+.detail-word {
+    padding-top: 47px;
+    font-size: 13px;
+    color: #878787; 
+}
+
+.detail-word img {
+    margin-top: 20px;
+    margin-bottom: 42px;
+}
+
+/* 字体 样式 */
+.list-right h4 #list-a{
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #0000ee;
+}
+.list-right h4 #list-a:hover{
+    color: #0000ee;
+}
+.list-right h4 #list-a:visited{
+    color:  #551a8b;
+
+}
+
+/* job样式 */
+.join-wrapper .job-link {
+    color: #000;
+    text-decoration: none;
+}
+.join-wrapper .job-link:hover {
+    color: #000;
+  
+}
+
+
+
 .word-wrapper {
     padding-top: 43px;
 }
@@ -66,6 +122,13 @@
     .article div {
         width: 100%;
     }
+
+    /* 1-1详情 */
+    .media-right .detail-word { 
+  
+        width: 100%;
+       
+    }
     
 }
 
@@ -113,6 +176,18 @@
     .article div {
         width: 100%;
     }
+
+
+    /* 1-1详情 */
+    .detail-word { 
+        width: 100%;
+        
+    }
+
+     /* 2-2图片 */
+     .xu-peo-wrapper {
+        overflow-x: scroll;
+    }
 }
 
 @media only screen and (min-width:500px) and (max-width:768px) {
@@ -154,11 +229,25 @@
     .word-wrapper {
         width: 100%;
     }
+    
     .article {
         width: 100%;
     }
     .article div {
         width: 100%;
+    }
+
+
+    /* 1-1详情 */
+    .detail-word { 
+        width: 100%;
+        padding-left: 0;
+       
+    }
+
+    /* 2-2图片 */
+    .xu-peo-wrapper {
+        overflow-x: scroll;
     }
 }
 
@@ -210,6 +299,18 @@
     .article div {
         width: 100%;
     }
+
+    /* 1-1详情 */
+    .detail-word { 
+        width: 100%;
+        padding-left: 0;
+       
+    }
+
+    /* 2-2图片 */
+    .xu-peo-wrapper {
+        overflow-x: scroll;
+    }
 }
 
 /* 逐梦人 */
@@ -257,3 +358,5 @@
     color: #fff;
     background: #ca1617;
 }
+
+
