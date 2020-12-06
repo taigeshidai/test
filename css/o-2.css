@@ -3,10 +3,9 @@
     top:-10px !important;
 }
 .media>div{
-    width: 100%;
+    width:1200px;
     max-width: 1100px;    
     margin: 0 auto;
-    overflow: auto;
 }
 .media1>div:first-child{
     color: #ce2a2b;
@@ -26,7 +25,7 @@
     
 }
 .media1{
-    width: 21%;
+    width: 230px;
     max-width: 230px;
     background: #f3f3f3;
     border-bottom: 1px solid #ddd;
@@ -44,28 +43,37 @@
 }
 .media3{
     float: right;
-    width: 77%;
+    width:847px;
     margin-top:30px;
 }
 .show-banner{
-    overflow: hidden;
+    width: 847px;
     z-index:-1000;
     margin-bottom: 50px;
 }
 .show-banner>div{
-    width: 33.3333333%;
+    width:276px;
 }
 .show-banner>div>.show-hover{
     width: 10000%;
     overflow: auto;
     z-index: -100000;
 }
+.show-hover>div>a{
+    display: block;
+    position: relative;
+    /* height: .17rem; */
+    border: 6px solid #afafaf;
+    /* padding: 5px; */
+    /* max-height: 195px; */
+    overflow: hidden;
+}
 .show-banner>div>.show-hover>div{
     width: 1%;
     float: left;
     font-size: 13px;
     color: #333;
-
+    margin-left: 30px;
 }
 .show-banner>div>div>div img{
    transition: all 0.5s ease 0s
@@ -75,10 +83,9 @@
     transition: .8s transform;
 }
 .show-banner img{
-    width: 70%;
-    height: 70%;
+    width: 264px;
+    height: 163px;
 }
 .show-banner p{
     line-height: 36px;
 }
-
