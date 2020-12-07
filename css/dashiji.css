@@ -1,0 +1,66 @@
+/* 大事记 */
+.content {
+
+    background: url(../imgs/dsj_bg.png) repeat;
+}
+.content>div {
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+div.info-block {
+    margin: 0 auto;
+    width: 80%;
+    padding: 10px;
+    font-size: 18px;
+    line-height: 30px;
+    border-radius: 20px;
+    color: #fff;
+    background-color: #30344F;
+    box-shadow: 5px 5px 5px #888;
+}
+.content .year {
+    position: relative;
+    padding: 0 10px;
+}
+.img-box img {
+    width: 100%;
+}
+.r2l-box {
+    overflow: hidden;
+}
+.r2l-box>div {
+    float: left;
+    width: 50%;
+    text-align: right;
+}
+.l2r-box {
+    overflow: hidden;
+    transform: translateX(2px);
+}
+.l2r-box>div {
+    float: right;
+    width: 50%;
+}
+
+.r2l {
+    border-left: 2px solid #B81D19;
+}
+
+.l2r {
+    border-right: 2px solid #B81D19;
+}
+.radius {
+    position: absolute;
+    top: 30px;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: #B81D19;
+}
+.r2l-box .radius {
+    right: -10px;
+}
+.l2r-box .radius {
+    left: -10px;
+}

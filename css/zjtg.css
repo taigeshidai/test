@@ -1,0 +1,90 @@
+
+@import 'base1.css';
+
+.h4 {
+    line-height: 36px;
+    border-bottom: 1px dashed #ccc;
+    font-size: 16px;
+    color: #CA1617;
+}
+.paragraph {
+    margin: 26px 0 28px;
+    line-height: 26px;
+    font-size: 14px;
+    color: #555;
+}
+.paragraph span {
+    display: block;
+    line-height: 26px;
+    font-size: 14px;
+    color: #555;
+}
+
+.col-sm-3,.col-sm-9 {
+    padding: 0;
+}
+/* 公司简介 */
+.cx-content img {
+    padding: 42px 0;
+    
+}
+.dashed {
+    height: 0;
+    border: none;
+    border-bottom: 1px dashed #ccc;
+}
+.j-img-box img {
+    display: block;
+    width: 800px;
+     height: 476px;
+}
+.j-img-box2 img {
+    display: block;
+    width: 800px;
+     height: 599px;
+}
+
+
+/* 创新开放 */
+.c-img-box img {
+    display: block;
+    width: 800px; 
+    height: 443px;
+}
+
+
+
+
+/* 太格理念 */
+.t-img-box img {
+    display: block;
+    width: 800px; 
+    height: 437px;
+}
+
+/* 资质荣誉 */
+.z-img-box img {
+    display: block;
+    width: 800px; 
+    height: 425px;
+}
+
+@media (max-width: 1100px)  {
+    .j-img-box,
+    .j-img-box2,
+    .c-img-box,
+    .t-img-box,
+    .z-img-box {
+        width: 100%;
+    }
+
+    .j-img-box img,
+    .j-img-box2 img,
+    .c-img-box img,
+    .t-img-box img,
+    .z-img-box img{
+        display: block;
+        max-width: 100%;
+        height: auto;
+    }
+}
