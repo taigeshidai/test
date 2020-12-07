@@ -1,0 +1,151 @@
+@media only screen and (min-width:1190px) {
+    .xu-main {
+        width: 100%;
+        padding-top: 29px;
+    }
+    .xu-main-wrapper{
+        width: 1170px;
+        margin: 0 auto;
+        display: flex;
+    }
+    .job-a {
+        width: 256px;
+        color: #666;
+        font-size: 12px;
+    }
+   
+    .job-b {
+        width: 78.12%;
+        padding-left: 44px;
+    }
+   
+}
+
+
+
+
+@media only screen and ( min-width: 768px) and ( max-width: 1190px) {
+    .xu-main-wrapper{
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+    }
+    .job-a {
+        width: 256px;
+        color: #666;
+        font-size: 12px;
+    }
+    
+    .job-b {
+        width: (100% - 256px);
+        padding-left: 44px;
+    }
+   
+}
+
+@media only screen and ( min-width: 500px) and ( max-width: 768px) {
+    .xu-main-wrapper{
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+    }
+    .job-a {
+        width: 256px;
+        color: #666;
+        font-size: 12px;
+    }
+   
+    .job-b {
+        width: (100% - 256px);
+        padding-left: 0;
+    }
+}
+
+@media only screen and ( max-width: 500px) {
+    .xu-main {
+        width: cale(100%-20px);
+        padding-left: 20px;
+        overflow: hidden;
+        box-sizing: border-box;
+    }
+    .xu-main .xu-main-wrapper{
+        width: cale(100%-20px);
+        margin: 0 auto;
+        overflow: hidden;
+    }
+    .job-a-content {
+        padding-right: 20px;
+    }
+    .job-a {
+        width: 100%;
+        color: #666;
+        font-size: 12px;
+    }
+    .job-a-tit {
+        width: 100%;
+        font-size: 18px;
+    }
+    .job-b {
+        width: 100%;
+        padding-right: 20px;
+    }
+}
+
+.job-a p {
+    margin-top: 10px;
+}
+.job-a-tit {
+    width: 256px;
+    font-size: 18px;
+}
+.job-a-art {
+    font-size: 12px;
+}
+
+.job-b-tit {
+    font-size: 22px;
+    color: #ca1617;
+}
+
+.job-b-part {
+    height: 35px;
+    line-height: 35px;
+    font-size: 13px;
+    color: #555;
+}
+.xu-line {
+    border-bottom: 1px dashed #ddd;
+}
+.xu-post {
+    margin-top: 20px;
+    color: #ff0000;
+    font-size: 16px;
+    font-weight: bold;
+    
+}
+.xu-ol {
+    font-size: 16px;
+    color: #555;
+}
+
+.xu-line1 {
+    height: 51px;
+    border-top: 1px dashed #ddd;
+    border-bottom: 1px dashed #ddd;
+}
+.job-c {
+    margin: 10px 5px;
+    text-align: center;
+}
+.job-c a{
+    display: inline-block;
+    width: 111px;
+    height: 34px;
+    color: white;
+    background: #ca1617;
+    line-height: 34px;
+    margin: 10px 5px;
+    text-align: center;
+    text-decoration: none;
+}
+
