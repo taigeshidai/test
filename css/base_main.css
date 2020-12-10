@@ -21,7 +21,7 @@ body>.base_main .base_menu dl dd {
     font-size: 16px;
     line-height: 60px;
     font-weight: 400;
-    background-color: #fff;
+    background-color: #ebebebb2;
     box-shadow: 0 1px 1px #ccc;
     position: relative;
     padding-left: 10px;
@@ -41,7 +41,7 @@ body>.base_main .base_menu dl dd.active::before{
     top: 0;
     left: 0;
 }
-body>.base_main .base_menu dl dd.active::after{
+body>.base_main .base_menu dl dd::after{
     content:'';
     position: absolute;
     right: 20px;
@@ -52,6 +52,10 @@ body>.base_main .base_menu dl dd.active::after{
     border-top: 5px solid transparent;
     border-left: 10px solid red;
     border-bottom: 5px solid transparent;
+   
+}
+body>.base_main .base_menu dl dd.active {
+     background: #fff;
 }
 body>.base_main .base_menu dl dt  span{
     display: inline-block;
@@ -86,5 +90,11 @@ body>.base_main .base_content .guide .guide_page{
 @media (max-width: 1190px){
     body>main{
         width: 100%;
+    }
+}
+
+@media (max-width:600px) {
+    body>.base_main {
+        padding-top: 0;
     }
 }

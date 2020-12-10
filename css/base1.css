@@ -24,6 +24,10 @@ body>.base_head hr{
 body >.base_head .base_nav_items{
     float: left;
 }
+body >.base_head .base_nav_items img {
+    height: 62px;
+    width: auto;
+}
 body >.base_head .base_nav_items >a{
     text-decoration: none;
     color: #6a6a6a;
@@ -224,6 +228,7 @@ body>footer.base_foot > .bottom > .copyright > .right span{
     }
 }
 @media (max-width: 707px){
+   
     body>.base_head .menu{
         display: block;
     }

@@ -1,6 +1,6 @@
 /* 大事记 */
 .content {
-
+    height: 2300px;
     background: url(../imgs/dsj_bg.png) repeat;
 }
 .content>div {
@@ -44,6 +44,7 @@ div.info-block {
 }
 
 .r2l {
+    padding: 30px 0;
     border-left: 2px solid #B81D19;
 }
 
@@ -63,4 +64,96 @@ div.info-block {
 }
 .l2r-box .radius {
     left: -10px;
+}
+
+@media (max-width:1200px) {
+    .content {
+        height: 2200px;
+    }
+    .r2l {
+        padding: 24px 0;
+    }
+}
+@media (max-width:1080px) {
+    .content {
+        height: 2150px;
+    }
+    .r2l {
+        padding: 22px 0;
+    }
+}
+@media (max-width:920px) {
+    .content {
+        height: 2200px;
+    }
+    .r2l {
+        padding: 18px 0;
+    }
+}
+@media (max-width:900px) {
+    .content {
+        height: 2300px;
+    }
+    .r2l {
+        padding: 16px 0;
+    }
+}
+@media (max-width:770px) {
+    body>.base_head {
+        position: static;
+        height: 60px;
+    }
+    .content {
+        height: 1900px;
+    }
+    .t2b {
+        display: none;
+    }
+    .r2l,
+    .l2r {
+        padding: 14px 0;
+        width: 100%!important;
+        border: 0;
+    }
+    
+}
+@media (max-width:630px) {
+    .content {
+        height: 2000px;
+    }
+    .r2l {
+        padding: 12px 0;
+    }
+}
+@media (max-width:540px) {
+    .content {
+        height: 2000px;
+    }
+    .r2l {
+        padding: 10px 0;
+    }
+}
+@media (max-width:450px) {
+    .content {
+        height: 2200px;
+    }
+    .r2l {
+        padding: 8px 0;
+    }
+}
+@media (max-width:400px) {
+    .content {
+        height: 2350px;
+    }
+    .r2l {
+        padding: 6px 0;
+    }
+}
+@media (max-width:350px) {
+    .content {
+        height: 2520px;
+    }
+    .r2l {
+        padding: 2px 0;
+    }
 }
