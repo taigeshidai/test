@@ -52,10 +52,6 @@ body>.base_main .base_menu dl dd::after{
     border-top: 5px solid transparent;
     border-left: 10px solid red;
     border-bottom: 5px solid transparent;
-   
-}
-body>.base_main .base_menu dl dd.active {
-     background: #fff;
 }
 body>.base_main .base_menu dl dt  span{
     display: inline-block;
@@ -93,8 +89,19 @@ body>.base_main .base_content .guide .guide_page{
     }
 }
 
+body >.base_head .base_nav_items img {
+    height: 62px;
+    width: auto;
+}
+body>.base_main .base_menu dl dd.active {
+    background: #fff;
+}
+
 @media (max-width:600px) {
     body>.base_main {
         padding-top: 0;
     }
+}
+main {
+    transform: translateY(-3px);
 }

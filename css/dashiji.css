@@ -1,4 +1,19 @@
 /* 大事记 */
+body >.base_head .base_nav_items img {
+    height: 62px;
+    width: auto;
+}
+body>.base_main .base_menu dl dd.active {
+    background: #fff;
+}
+@media (max-width:600px) {
+    body>.base_main {
+        padding-top: 0;
+    }
+}
+main {
+    transform: translateY(-3px);
+}
 .content {
     height: 2300px;
     background: url(../imgs/dsj_bg.png) repeat;
@@ -100,7 +115,6 @@ div.info-block {
 }
 @media (max-width:770px) {
     body>.base_head {
-        position: static;
         height: 60px;
     }
     .content {

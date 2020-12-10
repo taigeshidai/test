@@ -23,6 +23,18 @@
 .col-sm-3,.col-sm-9 {
     padding: 0;
 }
+body >.base_head .base_nav_items img {
+    height: 62px;
+    width: auto;
+}
+body>.base_main .base_menu dl dd.active {
+    background: #fff;
+}
+@media (max-width:600px) {
+    body>.base_main {
+        padding-top: 0;
+    }
+}
 /* 公司简介 */
 .cx-content img {
     padding: 42px 0;
