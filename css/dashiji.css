@@ -15,16 +15,17 @@ main {
     transform: translateY(-3px);
 }
 .content {
-    height: 2300px;
+    height: 2500px;
     background: url(../imgs/dsj_bg.png) repeat;
 }
 .content>div {
     width: 100%;
     max-width: 1100px;
     margin: 0 auto;
+
 }
 div.info-block {
-    margin: 0 auto;
+    margin: 20px auto;
     width: 80%;
     padding: 10px;
     font-size: 18px;
@@ -48,6 +49,7 @@ div.info-block {
     float: left;
     width: 50%;
     text-align: right;
+    padding: 10px 0;
 }
 .l2r-box {
     overflow: hidden;
@@ -83,7 +85,10 @@ div.info-block {
 
 @media (max-width:1200px) {
     .content {
-        height: 2200px;
+        height: 2400px;
+    }
+    div.info-block {
+        margin: 14px auto;
     }
     .r2l {
         padding: 24px 0;
@@ -91,26 +96,26 @@ div.info-block {
 }
 @media (max-width:1080px) {
     .content {
-        height: 2150px;
+        height: 2250px;
     }
-    .r2l {
-        padding: 22px 0;
+    div.info-block {
+        margin: 5px auto;
     }
 }
 @media (max-width:920px) {
     .content {
-        height: 2200px;
+        height: 2350px;
     }
-    .r2l {
-        padding: 18px 0;
+    div.info-block {
+        margin: 5px auto;
     }
 }
 @media (max-width:900px) {
     .content {
         height: 2300px;
     }
-    .r2l {
-        padding: 16px 0;
+    div.info-block {
+        margin: 4px auto;
     }
 }
 @media (max-width:770px) {
@@ -118,7 +123,7 @@ div.info-block {
         height: 60px;
     }
     .content {
-        height: 1900px;
+        height: 2000px;
     }
     .t2b {
         display: none;
@@ -129,45 +134,47 @@ div.info-block {
         width: 100%!important;
         border: 0;
     }
-    
+    div.info-block {
+        margin: 3px auto;
+    }
 }
 @media (max-width:630px) {
     .content {
-        height: 2000px;
+        height: 2100px;
     }
-    .r2l {
-        padding: 12px 0;
+    div.info-block {
+        margin: 4px auto;
     }
 }
 @media (max-width:540px) {
     .content {
-        height: 2000px;
+        height: 2100px;
     }
-    .r2l {
-        padding: 10px 0;
+    div.info-block {
+        margin: 3px auto;
     }
 }
 @media (max-width:450px) {
     .content {
-        height: 2200px;
+        height: 2250px;
     }
-    .r2l {
-        padding: 8px 0;
+    div.info-block {
+        margin: 0px auto;
     }
 }
 @media (max-width:400px) {
     .content {
         height: 2350px;
     }
-    .r2l {
-        padding: 6px 0;
+    div.info-block {
+        margin: 0px auto;
     }
 }
 @media (max-width:350px) {
     .content {
-        height: 2520px;
+        height: 2650px;
     }
-    .r2l {
-        padding: 2px 0;
+    div.info-block {
+        margin: 0px auto;
     }
 }
